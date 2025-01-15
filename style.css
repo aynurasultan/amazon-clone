@@ -19,7 +19,6 @@ body {
 
 .border {
   border: 1px solid transparent;
-  /* hover olunduğunda kayma olmaması için en baş birden transparent border verdik. */
   height: 100%;
   display: grid;
   place-items: center;
@@ -133,7 +132,6 @@ span {
 }
 .panel-all {
   white-space: nowrap;
-  /* Bir elemanın içerisindeki elemanlarda kapsama göre sığmama olduğunda bunların alt satıra geçmemesini sağlar. */
 }
 .panel-ops {
   width: 70%;
@@ -327,7 +325,6 @@ span {
   }
   .hero-msg {
     width: unset;
-    /* unset öncesinde atama yapılan bir özelliği ayarlanmamış haline çevirmek için kullanılır. */
     margin: 20px;
   }
   .hero-msg a {
